@@ -1,11 +1,24 @@
-package app;
 
-import app.Character;
+public static void main(String[] args) {
+    private static Character createCharacter() {
+            
+        return new Character(3);
+    }
+            System.out.println("Créons Mario avec 3 vies");
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        Character mario;
+}
+{
+    
+
+
+
+
+
         
+         
+     
+
+
         /*
         * 1. Dieu créa Mario
         * =====================================================================
@@ -13,6 +26,21 @@ public class App {
         */
         // mario = createCharacter();
         // test("mario.getLives()", mario.getLives(), 3);
+
+package app;
+mport app.Character;
+
+public class App {
+
+    private static Character createCharacter() {
+            
+        return new Character(3);
+    }
+            System.out.println("Créons Mario avec 3 vies");
+
+}
+{
+
 
 
 
@@ -83,5 +111,4 @@ public class App {
         // mario.takeHit();
         // test("mario.getIsInvulnerable()", mario.getIsInvulnerable(), false);
         // test("mario.getLives()", mario.getLives(), 2);
-    }
-}
+    
